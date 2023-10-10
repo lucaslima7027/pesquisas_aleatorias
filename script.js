@@ -1,6 +1,6 @@
 async function palavraAleatoria() {
-    const response = await fetch("https://api.dicionario-aberto.net/random");
-    const dicionario = await response.json();
+    const resposta = await fetch("https://api.dicionario-aberto.net/random");
+    const dicionario = await resposta.json();
     return dicionario.word;
   }
 
